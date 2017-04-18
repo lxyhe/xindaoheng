@@ -1,0 +1,219 @@
+/*通用样式*/
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+		color: #666;
+		margin: 0px;
+		padding: 0px;
+	}
+	ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		list-style: none;
+	}
+	img{vertical-align: bottom;}
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	.lf {
+		float: left;
+	}
+	.rt {
+		float: right;
+	}
+	.clear {
+		clear: both;
+	}
+/*整体布局*/
+	#top_box, #logo, #main, .nav_bar,#slider,#hot_recommend,#banner,#link{
+		width: 1100px;
+		margin: 0 auto;
+	}
+/*页面顶部header*/
+	#top {
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		background: #eee;
+		border-bottom: 1px solid #ddd;
+	}
+	/*导航条*/
+	#nav {
+		width: 100%;
+		height: 40px;
+		background: #DB261D;
+	}
+	#nav .nav_bar li b {
+		border-left: 1px solid #fff;
+	}
+	#nav .nav_bar > li {
+		float: left;
+		line-height: 40px;
+		position: relative;
+	}
+	.nav_bar li a{
+		display: inline-block;
+		color: #fff;
+		font-size: 14px;
+		padding: 0 40px;
+	}
+	.nav_bar li a:hover {
+		background:#BB2821;
+	}
+	#course_list,#business_list,#campus_list{
+		display:none;
+		text-align:center;
+		width:136px;
+		position: absolute;
+		left:1px;
+		top:40px;
+		z-index:50;
+		background:#34302F;
+	}
+	#course_list li>a,#business_list li>a,#campus_list li>a{
+		width:136px;
+		line-height: 46px;
+		padding:0;
+	}
+	.course_box a:hover,.course_box a.hover,
+	.business_box a:hover,.business_box a.hover,
+	.campus_box a:hover,.campus_box a:hover{
+		background:#BB2821;
+	}
+/*面包屑导航*/
+	#crumb {
+		margin: 20px 0 10px;
+	}
+/*主体部分各地校区*/
+	#main_box{
+		width:1100px;
+		margin:20px auto;
+		overflow:hidden;
+	}
+	#campus{
+		width:800px;
+		float:left;
+		border:1px solid #ddd;
+		min-height:700px;
+		padding:10px;
+	}
+	#campus .school{
+		overflow:hidden;
+	}
+	#campus .school li{
+		float:left;	
+		width:250px;
+		min-height:270px;
+		margin-bottom:20px;
+		border:1px solid #ddd;
+	}
+	#campus .school li img{
+		margin:5px 4px 10px;
+	}
+	#campus .school li.tieyi{
+		margin:0 10px;
+	}
+	#campus .school li h3{
+		margin:6px;
+		width:236px;
+		line-height:22px;
+	}
+	#campus .school li h3 img{
+		position:relative;
+		bottom:2px;
+		vertical-align:top;
+	}
+	#campus .school li h3 a{
+		font-weight:normal;
+		color:#e4393c;
+	}
+	#campus .school li p{
+		margin:10px;
+	}
+	
+/*主体部分右侧*/
+	#main_right{
+		width:270px;
+		margin-left:30px;
+		min-height:400px;
+		float:left;
+	}
+	#main_right>ul li{
+		margin-bottom:3px;
+	}
+	#main_right>ul li a{
+		display:inline-block;
+		width:100%;
+		text-align:center;
+		line-height:40px;
+		color:#fff;
+		background:#34302F;
+	}
+	#main_right>ul li a:hover{
+		background:#BB2821;
+	}
+	/*主体部分右侧推荐文章*/
+	.article{
+		margin-top:20px;
+		border:1px solid #ddd;
+		padding:15px 8px;
+	}
+	.article .recon{
+		padding-bottom:4px;
+		border-bottom:1px solid #ddd;
+	}
+	.article .recon b{
+		font-size:16px;
+		padding-right:8px;
+	}
+	.art{
+		margin:5px 15px;
+	}
+	.art li a{
+		display:inline-block;
+		line-height:36px;
+	}
+	.art li a:hover{
+		color:#CC0000;
+	} 
+	#main_right img{
+		width:270px;
+		margin-top:15px;
+	}
+/*footer*/
+	#foot{
+		width:100%;
+		padding:20px 0;
+		margin-top:30px;
+		background:url("images/btg.jpg")  repeat-x #EEEEEE;
+	}
+	#foot div{
+		width:1100px;
+		margin:0 auto;
+		text-align: center;
+	}
+	#foot ul{
+		width:858px;
+		margin:0 auto 20px;
+		overflow:hidden;
+	}
+	#foot ul li{
+		float:left;
+		width:122px;
+		text-align:center;
+		line-height: 35px;
+		font-size:14px;
+	}
+	#foot a:hover{
+		color:#e4393c;
+	}
+	#foot div>span{
+		color:#000;
+	}
+	#foot div>a{
+		margin-left:50px;
+	}

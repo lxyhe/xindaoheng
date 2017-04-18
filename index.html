@@ -1,14 +1,317 @@
-<!doctype html>
-<html lang="en">
- <head>
+<!DOCTYPE html>
+<html>
+<head lang="en">
   <meta charset="UTF-8">
-  <meta name="Generator" content="EditPlus®">
-  <meta name="Author" content="">
-  <meta name="Keywords" content="">
-  <meta name="Description" content="">
-  <title>Document</title>
- </head>
- <body>
-  <div>你好啊</div>
- </body>
-</html>
+  <title>新道恒首页</title>
+  <link rel="stylesheet" href="css/home.css"/>
+</head>
+<body>
+ <!--页面顶部-->
+	<header id="top">
+		<div id="top_box">
+			<span>新道恒--定制教育专家，个性化学习管理中心！</span>
+		</div>
+	</header>
+  <div id="logo">
+    <img src="images/top.jpg"/>
+  </div>
+ <!--导航-->
+  <div id="nav">
+    <ul class="nav_bar">
+      <li><a href="index.html">首页</a></li>
+      <li class="course_box">
+        <b></b>
+        <a href="index1.html">课程辅导</a>
+        <ul id="course_list">
+          <li><a href="#">一对一辅导</a></li>
+          <li><a href="#">考前辅导</a></li>
+          <li><a href="#">双优计划</a></li>
+        </ul>
+      </li>
+      <li class="business_box">
+        <b></b>
+        <a href="#">业务体系</a>
+        <ul id="business_list">
+          <li><a href="#">双优计划</a></li>
+          <li><a href="#">升学无忧</a></li>
+          <li><a href="#">轻松考试</a></li>
+          <li><a href="#">开心学习</a></li>
+        </ul>
+      </li>
+      <li><b></b><a href="index2.html">社会责任</a></li>
+      <li class="campus_box">
+        <b></b>
+        <a href="index3.html">各地校区</a>
+        <ul id="campus_list">
+          <li><a href="index3.html">西安分校</a></li>
+          <li><a href="#">宝鸡分校</a></li>
+          <li><a href="#">咸阳分校</a></li>
+        </ul>
+      </li>
+      <li><b></b><a href="#">诚聘英才</a></li>
+      <li><b></b><a href="#">关于我们</a></li>
+      <li><b></b><a href="#">联系我们</a></li>
+    </ul>
+  </div>
+ <!--主体-->
+  <section id="main">
+   <!--轮播广告-->
+    <div id="slider">
+      <ul id="imgs">
+      </ul>
+      <ul id="idxs">
+      </ul>
+    </div>
+   <!--热门推荐-->
+    <div id="hot_recommend">
+      <div class="lf"><img src="images/tj.jpg"/></div>
+      <ul id="study_plan" class="lf">
+        <li>
+          <a href="#"><img src="images/plan1.jpg"/></a>
+          <div class="zhezhao">
+            <a href="#">双优计划
+              <img src="images/icon.jpg" class="rt"/>
+            </a>
+          </div>
+        </li>
+        <li>
+          <a href="#"><img src="images/plan2.jpg"/></a>
+          <div class="zhezhao">
+            <a href="#">升学无忧
+              <img src="images/icon.jpg" class="rt"/>
+            </a>
+          </div>
+        </li>
+        <li>
+          <a href="#"><img src="images/plan3.jpg"/></a>
+          <div class="zhezhao">
+            <a href="#">轻松考试
+              <img src="images/icon.jpg" class="rt"/>
+            </a>
+          </div>
+        </li>
+        <li>
+          <a href="#"><img src="images/plan4.jpg"/></a>
+          <div class="zhezhao">
+            <a href="#">开心学习
+              <img src="images/icon.jpg" class="rt"/>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--banner-->
+    <div id="banner">
+      <a href="#"><img src="images/banner.jpg"/></a>
+    </div>
+   <!--优选课程推荐-->
+    <div id="recommend_course">
+      <div class="rec_menu">
+        <img src="images/icon3.jpg"/>
+        <b>优选课程推荐</b>
+        <span>Recommended</span>
+        <ul class="rt">
+          <li class="active"><a href="#">高一预科辅导</a></li>
+          <li><a  href="#">艺考</a></li>
+        </ul>
+      </div>
+      <div id="slider-show">
+        <ul>
+          <li class="stu">
+						<div class="study">
+							<a class="face front" href="#"><img src="images/study1.png"/></a>
+							<a class="face back" href="#"><img src="images/study2.jpg" alt=""/></a>
+						</div>
+					</li>
+          <!-- <li class="study"></li> -->
+          <li class="stu">
+						<div class="study">
+							<a class="face front" href="#"><img src="images/study3.jpg" alt=""/></a>
+							<a class="face back" href="#"><img src="images/study4.jpg" alt=""/></a>
+						</div>
+					</li>
+          <!-- <li class="study"></li> -->
+          <li class="stu">
+						<div class="study">
+							<a class="face front" href="#"><img src="images/study5.jpg" alt=""/></a>
+							<a class="face back" href="#"><img src="images/study6.jpg" alt=""/></a>
+						</div>
+					</li>
+          <!-- <li class="study"></li> -->
+        </ul>
+      </div>
+    </div>
+   <!--新闻资讯-->
+    <div id="news">
+      <div id="newCenter">
+        <div class="rec_menu">
+          <b>新闻资讯</b>
+          <span>News center</span>
+          <a href="#" class="rt"><img src="images/more.jpg" alt=""/></a>
+          <ul class="rt">
+            <li class="active"><a href="#new1">最新资讯</a></li>
+            <li><a  href="#new2">少儿教育</a></li>
+            <li><a  href="#new3">小升初</a></li>
+            <li><a  href="#new4">中考</a></li>
+            <li><a  href="#new5">高考</a></li>
+            <li><a  href="#new6">艺考</a></li>
+          </ul>
+        </div>
+        <div id="sub_menu">
+          <ul id="new1" class="active">
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter1.jpg"/></a>
+              <div class="lf">
+                <h3><a href="#">“T台秀”与写文章的关系（万有引力-新道恒）</a></h3>
+                <p>其实一件漂亮的时装和一篇优秀的文章有诸多契合点。也可以这样说,一篇优秀的文章就是一
+                   件漂亮的时装。
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月20日</div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter2.jpg"/></a>
+              <div class="lf">
+                <h3><a href="#">这8件事父母不能代劳（万有引力-新道恒）</a></h3>
+                <p>其实一件漂亮的时装和一篇优秀的文章有诸多契合点。也可以这样说,一篇优秀的文章就是一
+                   件漂亮的时装。
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月20日</div>
+              </div>
+            </li>
+          </ul>
+          <ul id="new2" style="display:none">
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter3.png"/></a>
+              <div class="lf">
+                <h3><a href="#">有这样4句话，对她/他有帮助</a></h3>
+                <p>教会孩子如何选择，教导并引导孩子如何变得更加可爱和优秀，帮助孩子掌握自己的情绪。这
+                 样，家长不在身边的时候，也能学会自我管理了。
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月12日</div>
+              </div>
+            </li>
+          </ul>
+          <ul id="new3" style="display:none">
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter4.jpg"/></a>
+              <div class="lf">
+                <h3><a href="#">2016小升初：一位妈妈给即将升入初中的儿子的一封信</a></h3>
+                <p>崇高的人生理想必须和 生活实际相关系，必须从一点一滴做起。端正自己的学习态度，养成
+                   良好的学习习惯。新的学期，新的开端，新的起点，愿你的初中生活充满阳光。
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月12日</div>
+              </div>
+            </li>
+          </ul>
+          <ul id="new4" style="display:none">
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter5.jpg"/></a>
+              <div class="lf">
+                <h3><a href="#">初三抓好这3个阶段 你的中考就没问题（万有引力-新道恒）</a></h3>
+                <p>一旦步入初三学习的压力是不言而喻的，如果还是按照初一初二的学习方式进行初三的学习，
+                 很多同学会觉得时间不够用，整个初三的学习应该是系统的，总体来说，应该分成三大阶段，不同
+                 的阶段。
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月16日</div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter6.jpg"/></a>
+              <div class="lf">
+                <h3><a href="#">优秀的中考生家长是如何炼成的？（万有引力-新道恒）</a></h3>
+                <p>家长要学会面对 无条件爱孩子 学习不是孩子的专利 家长也必须要学习</p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月20日</div>
+              </div>
+            </li>
+          </ul>
+          <ul id="new5" style="display:none">
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter7.jpg"/></a>
+              <div class="lf">
+                <h3><a href="#">准高三家长必备：2017高考准备清单</a></h3>
+                <p>过完这个暑假高二生马上就要迎来紧张的高三生活，身为孩子坚强的后盾，从现在开始就要为
+                  孩子做好高考的准备，那么家长朋友需要做哪些准备呢？
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月08日</div>
+              </div>
+            </li>
+          </ul>
+          <ul id="new6" style="display:none">
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter8.jpg"/></a>
+              <div class="lf">
+                <h3><a href="#">艺术水平考试将正式纳入初中升学考试成绩（万有引力-新道恒）</a></h3>
+                <p>教育部发布关于推进学校艺术教育发展的若干意见，提出开始对中小学校和中等职业学校学生
+                   进行艺术素质测评。
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月18日</div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="lf"><img src="images/newcenter9.jpg"/></a>
+              <div class="lf">
+                <h3>
+                  <a href="#">
+                    艺考家长知道：判定艺术院校实力有这12个方法（万有引力-新道恒）
+                  </a>
+                </h3>
+                <p>判定艺术类院校专业实力强弱的12个方法如下：知名度是实力比较的重要标志
+                   例如清华大学(分数线,专业设置)美术学院是国内设计第一强校，中央美术学院、中国美术学
+                   院、广州美术学院
+                </p>
+                <div><img src="images/time.jpg" alt=""/> 时间：2016年08月13日</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="notice">
+        <div class="rec_menu">
+          <b>最新公告</b>
+          <span>Notice</span>
+          <a href="#" class="rt"><img src="images/more.jpg" alt=""/></a>
+        </div>
+        <div class="notice_bar">
+          <ul>
+            <li><i></i><a href="#">放假就是放松（课外辅导-新道恒）</a></li>
+            <li><i></i><a href="#">新道恒教育：中高考在即，教师素质必须过硬</a></li>
+            <li><i></i><a href="#">新道恒教育：严把教研质量的每一个环节</a></li>
+          </ul>
+          <img src="images/icoright1.jpg" alt=""/>
+          <img src="images/icoright2.jpg" alt=""/>
+        </div>
+      </div>
+    </div>
+    <div id="link">
+      <h3>合作伙伴</h3>
+      <ul>
+        <li><a href="#"><img src="images/partner1.jpg" alt=""/></a></li>
+        <li><a href="#"><img src="images/partner2.jpg" alt=""/></a></li>
+      </ul>
+    </div>
+  </section>
+ <!-- 页面底部 -->
+  <footer id="foot">
+    <div class="bt"><img src="images/bt.jpg"/></div>
+    <ul>
+      <li><a href="#">课程简介</a></li>
+      <li><a href="#">优势展示</a></li>
+      <li><a href="#">研究院</a></li>
+      <li><a href="#">校区分布</a></li>
+      <li><a href="#">教学成果</a></li>
+      <li><a href="#">合作发展</a></li>
+      <li><a href="#">关于我们</a></li>
+    </ul>
+    <div>
+      <span>地址：西安市经开区凤城一路6号新道恒中心　邮编：710016　业务联系：xindaoheng@vip.sina.com
+      </span><br><br>
+      <span>Copyright 2010 版权所有</span>
+      <a href="#">陕ICP备15006252号-1</a>
+    </div>
+  </footer>
+
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html><!--

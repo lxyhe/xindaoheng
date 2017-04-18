@@ -1,0 +1,241 @@
+/*通用样式*/
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+  color: #666;
+  margin: 0px;
+  padding: 0px;
+}
+ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  list-style: none;
+}
+img {
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+/*整体布局*/
+#top_box, #logo, #main, .nav_bar, #slider, #hot_recommend, #banner, #link {
+  width: 1100px;
+  margin: 0 auto;
+}
+/*页面顶部header*/
+#top {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background: #eee;
+  border-bottom: 1px solid #ddd;
+}
+/*导航条*/
+#nav {
+  width: 100%;
+  height: 40px;
+  background: #DB261D;
+}
+#nav .nav_bar li b {
+  border-left: 1px solid #fff;
+}
+#nav .nav_bar > li {
+  float: left;
+  line-height: 40px;
+  position: relative;
+}
+.nav_bar li a {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 40px;
+}
+.nav_bar li a:hover {
+  background: #BB2821;
+}
+#course_list,#business_list,#campus_list{
+  display:none;
+  text-align:center;
+  width:136px;
+  position: absolute;
+  left:1px;
+  top:40px;
+  z-index:50;
+  background:#34302F;
+}
+#course_list li>a,#business_list li>a,#campus_list li>a{
+  width:136px;
+  line-height: 46px;
+  padding:0;
+}
+.course_box a:hover,.course_box a.hover,
+.business_box a:hover,.business_box a.hover,
+.campus_box a:hover,.campus_box a:hover{
+  background:#BB2821;
+}
+/*主体部分左侧*/
+.main_box{overflow:hidden;}
+#crumb {
+  margin: 20px 0 10px;
+}
+.left_course {
+  width: 225px;
+  float:left;
+  background: #F6F6F6;
+}
+.left_course {
+  padding: 20px 0 10px;
+}
+.left_course div {
+  border-bottom: 1px solid #deeeee;
+  padding-bottom: 20px;
+}
+.left_course h2 {
+  font-size: 16px;
+  color: #CC0000;
+  margin: 10px 20px;
+}
+.left_course h3 {
+  margin: 10px 20px;
+}
+.left_course ul {
+  overflow: hidden;
+  margin-left: 15px;
+}
+.left_course ul li {
+  float: left;
+  text-align: center;
+}
+.left_course ul li a {
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+}
+.left_course ul li a:hover {
+  color: #fff;
+  background: #e4393c;
+}
+/*主体部分右侧*/
+#caseShow{
+  width:820px;
+  float:left;
+  margin-left:40px;
+  overflow:hidden;
+}
+/*CSS图片旋转*/
+#caseShow .pho{
+float:left;
+width:820px;
+-webkit-perspective:400;
+-moz-perspective:400;
+}
+#caseShow .photo{
+width:100%;
+height:231px;
+-webkit-transform-style:preserve-3d;
+-webkit-transition:1.5s;
+-moz-transform-style:preserve-3d;
+-moz-transition:1.5s;
+}
+.pho:hover .photo{
+	-webkit-transform:rotateX(180deg);
+	-moz-transform:rotateX(180deg);
+}
+.face{
+position:absolute;
+-webkit-backface-visibility:hidden;
+-moz-backface-visibility:hidden;
+}
+.back{
+-webkit-transform:rotateX(180deg);
+-moz-transform:rotateX(180deg);
+width:820px;
+height:231px;
+}
+#case{
+  margin-top:20px;
+}
+#case b{
+  font-size:14px;
+}
+#case ul.course{
+  padding-top:10px;
+  margin-top:10px;
+  border-top:1px solid #ddd;
+  margin-left:5px;
+  overflow:hidden;
+}
+#case ul.course li{
+  float:left;
+  margin-right:34px;
+  text-align: center;
+}
+#case ul.course li p{
+  margin:10px 0;
+}
+/*分页条*/
+#page{
+	width:180px;
+	margin:0 auto;
+}
+#page li{
+	display:inline-block;
+	border:1px solid #ccc;
+	margin:10px 3px;
+	border-radius:4px;
+
+}
+.pager li a{
+	display:inline-block;
+	padding:5px 10px;
+}
+  #page .pager li.active{
+	border:none;
+}
+/*footer*/
+#foot {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 30px;
+  background: url("images/btg.jpg") repeat-x #EEEEEE;
+}
+#foot div {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+#foot ul {
+  width: 858px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+#foot ul li {
+  float: left;
+  width: 122px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+}
+#foot a:hover {
+  color: #e4393c;
+}
+#foot div > span {
+  color: #000;
+}
+#foot div > a {
+  margin-left: 50px;
+}
